@@ -16,8 +16,8 @@ free compute for frontend.
 
 ### Near Term
 
-- [ ] Add in image ingestion
-- [ ] Make frontend to display data
+- [x] Add in image ingestion
+- [x] Make frontend to display data
 - [ ] Make / connect supabase
 - [ ] Make serverless with Azure
 
