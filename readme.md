@@ -12,7 +12,7 @@ free compute for frontend.
 - Song data shows album as "{artist} - {album}", probably just fix this when pulling data
 - URL is being blocked by last fm firewall? Saw this was a common issue and cant even go in through browser
 
-## TODO
+## TODO V1 - Lights ON
 
 - [x] Add in image ingestion
 - [x] Make frontend to display data
