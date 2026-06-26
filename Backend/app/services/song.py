@@ -1,4 +1,4 @@
-from config import network
+from .config import network
 import pylast
 
 def get_one_song_from_user(target_username) -> dict:

@@ -1,6 +1,6 @@
 import pylast
-from config import network
-import utils
+from .config import network
+from . import utils
 
 def get_album_from_song(target_song) -> dict:
     try:
@@ -15,9 +15,11 @@ def get_album_from_song(target_song) -> dict:
             'artist': str(album.artist),
             'playcount': album.get_playcount(),
             'listeners': album.get_listener_count(),
+            'coverimage': album.get_cover_image(),
             'wiki': album.get_wiki_content() if album.get_wiki_summary() else None,
             'tracks': [],
-            'tags': []
+            'tags': [],
+            'images': []
         }
         
         tracks = album.get_tracks()
@@ -39,7 +41,6 @@ def get_album_from_song(target_song) -> dict:
                 album_info['tags'].append(tag_info)
         except Exception as e:
             print(f"Error getting tags: {e}")
-            album_info['tags'] = []
         
         return album_info
             
