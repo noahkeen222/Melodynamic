@@ -20,7 +20,5 @@ free compute for frontend.
 - [x] Make frontend to display data
 - [ ] Make serverless with Azure
 - [ ] Make / connect supabase
-- [ ] Create IOS Shortcut
-
-
+- [ ] Create IOS Shortcut  
 - [ ] Make deployable frontend container for GCP
