@@ -15,12 +15,19 @@ free compute for frontend.
 ## TODO V1 - Lights ON
 
 - [x] Add in image ingestion
-- [x] Make frontend to display data
+- [x] Make frontend to display last song data
 - [x] Make containers
 - [x] Create IOS Shortcut
 
+---
+
 - [ ] Make serverless with Azure
 - [ ] Make / connect supabase
+- [ ] Make frontend to display survey data
 - [ ] Finish refactoring/linking backend
 
+---
+
 - [ ] deploy frontend GCP free compute
+
+## Ideas V2
