@@ -10,7 +10,7 @@ free compute for frontend.
 
 - Song from album sometimes gets read as single which causes issue with album data api call.
 - Song data shows album as "{artist} - {album}", probably just fix this when pulling data
-- URL is being blocked by last fm firewall? Saw this was a common issue and cant even go in through internet
+- URL is being blocked by last fm firewall? Saw this was a common issue and cant even go in through browser
 
 ## TODO
 
