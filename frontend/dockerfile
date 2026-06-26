@@ -1,6 +1,6 @@
-FROM node:20.19.3
+FROM node:22-alpine
 WORKDIR /app
 COPY package*.json /app/
-RUN npm i --silent
+RUN npm i
 COPY . /app/
 CMD ["npm", "run", "dev"]
