@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from .services import *
+from app.services import info
 
-app = FastAPI()
+api = FastAPI()
 
 # @app.get("/get-song")
 # def song_get():
@@ -11,6 +11,6 @@ app = FastAPI()
 # def album_get():
 #     return None
 
-@app.get("/get_info")
+@api.get("/get_info")
 def info_get():
     return info.get_info()
