@@ -14,11 +14,9 @@ free compute for frontend.
 
 ## TODO
 
-### Near Term
-
 - [x] Add in image ingestion
 - [x] Make frontend to display data
 - [ ] Make serverless with Azure
 - [ ] Make / connect supabase
-- [ ] Create IOS Shortcut  
-- [ ] Make deployable frontend container for GCP
+- [ ] Create IOS Shortcut
+- [ ] Make deployable frontend containerr GCP
