@@ -1,6 +1,0 @@
-.env
-.venv
-
-*.txt
-!requirements.txt
-

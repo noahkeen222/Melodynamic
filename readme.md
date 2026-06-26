@@ -16,7 +16,11 @@ free compute for frontend.
 
 - [x] Add in image ingestion
 - [x] Make frontend to display data
+- [x] Make containers
+- [ ] Create IOS Shortcut
+
 - [ ] Make serverless with Azure
 - [ ] Make / connect supabase
-- [ ] Create IOS Shortcut
-- [ ] Make deployable frontend containerr GCP
+- [ ] Finish refactoring/linking backend
+
+- [ ] deploy frontend GCP free compute
