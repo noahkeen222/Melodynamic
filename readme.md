@@ -18,8 +18,10 @@ free compute for frontend.
 
 - [x] Add in image ingestion
 - [x] Make frontend to display data
-- [ ] Make / connect supabase
 - [ ] Make serverless with Azure
+- [ ] Create IOS Shortcut
+- [ ] Make / connect supabase
+
 
 ### Long Term
 
