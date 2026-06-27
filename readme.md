@@ -22,7 +22,7 @@ free compute for frontend.
 ---
 
 - [ ] Make serverless with Azure
-- [ ] Make / connect supabase
+- [ ] Make / connect cosmos db
 - [ ] Make frontend to display survey data
 - [ ] Finish refactoring/linking backend
 
