@@ -19,7 +19,6 @@ def get_album_from_song(target_song) -> dict:
             'wiki': album.get_wiki_content() if album.get_wiki_summary() else None,
             'tracks': [],
             'tags': [],
-            'images': []
         }
         
         tracks = album.get_tracks()
